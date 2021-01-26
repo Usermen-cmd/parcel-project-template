@@ -1,0 +1,67 @@
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-title {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 136%;
+    letter-spacing: 0.03em;
+    color: $dark-font;
+
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.571;
+    letter-spacing: 0.08em;
+    color: $dark-font;
+
+    margin-bottom: 30px;
+    .hero-text-grey {
+        font-weight: 500;
+        color: $light-font;
+    }
+    .hero-text-orng {
+        color: $orange;
+    }
+}
+
+.hero-button {
+    @extend %orange-btn;
+
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    margin: 0 auto;
+}
+
+.hero-item-text {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.429;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #111518;
+}
+
