@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC;AACD,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;CACjB;;AACD,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,MAAM;CACf;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,UAAU,CAAC;IACT,SAAS,EAAE,KAAK;IAChB,OAAO,EAAE,MAAM;GAChB;;;AAEH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAClC,AAAA,UAAU,CAAC;IACT,SAAS,EAAE,MAAM;IACjB,OAAO,EAAE,OAAO;GACjB",
+    "sources": [
+        "main.scss",
+        "components/_base.scss",
+        "components/_fonts.scss",
+        "components/_variables.scss",
+        "components/_mixins.scss",
+        "components/_plaseholders.scss",
+        "layouts/_header.scss",
+        "layouts/_hero.scss",
+        "layouts/_problems.scss",
+        "layouts/_how.scss",
+        "layouts/_program.scss",
+        "layouts/_teacher.scss",
+        "layouts/_guarantee.scss",
+        "layouts/_reviews.scss",
+        "layouts/_registration-form.scss",
+        "layouts/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
