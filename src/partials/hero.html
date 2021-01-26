@@ -8,26 +8,35 @@
         <span class="hero-text-orng">+25 баллов</span>
     </p>
     <button class="hero-button">ХОЧУ НА БЕСПЛАТНОЕ ЗАНЯТИЕ</button>
-    <img src="" alt="">
+    <picture class="hero-picture">
+        <source
+            srcset="./images/hero/hero-mobile.webp 1x, ./images/hero/hero-mobile@2x.webp 2x"
+            media="(min-width: 320px)" type="image/webp">
+        <source
+            srcset="./images/hero/hero-mobile.jpg 1x, ./images/hero/hero-mobile@2x.jpg 2x"
+            media="(min-width: 320px)">
 
+        <img class="hero-photo" src="./images/hero/hero-mobile.jpg"
+            alt="Обсуждение за столом" />
+    </picture>
     <ul class="hero-list">
         <li class="hero-item">
-            <svg class="hero-icon">
-                <use></use>
+            <svg class="hero-icon" width='59' height='60'>
+                <use href='./images/icon/sprite.svg#female-border'></use>
             </svg>
             <p class="hero-item-text">Адаптированная авторская
                 программа ВНО</p>
         </li>
         <li class="hero-item">
-            <svg class="hero-icon">
-                <use></use>
+            <svg class="hero-icon" width='59' height='60'>
+                <use href='./images/icon/sprite.svg#mobile-border'></use>
             </svg>
             <p class="hero-item-text">Современные
                 методики обучения</p>
         </li>
         <li class="hero-item">
-            <svg class="hero-icon">
-                <use></use>
+            <svg class="hero-icon" width='59' height='60'>
+                <use href='./images/icon/sprite.svg#insurance-border'></use>
             </svg>
             <p class="hero-item-text">Финансовая гарантия
                 результата</p>
