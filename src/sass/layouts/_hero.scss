@@ -4,14 +4,14 @@
     padding-bottom: 50px;
     // background-image: url('./../images/hero/hero-bg-mobile.jpg');
     // background-size: cover;
-    @media screen and (min-width:768px) and (max-width:1199px) {
+    @media screen and (min-width:768px) and (max-width:1313px) {
         background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png') , url('./../images/hero/hero-bg-tablet.jpg');
         background-repeat: no-repeat;
         background-position: top 171.44px right 36.63px, top 188.59px right 18.25px, center top 0px ;
 
         padding-top: 158px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1314px) {
 
         padding: 228.5px 20px 130px;
 
@@ -32,12 +32,12 @@
     color: $dark-font;
 
     margin-bottom: 30px;
-    @media screen and (min-width:768px) and (max-width:1199px) {
+    @media screen and (min-width:768px) and (max-width:1313px) {
         font-size: 28px;
         line-height: 124%;
         max-width: 332px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1314px) {
         font-size: 58px;
         line-height: 130%;
         max-width: 642px;
@@ -49,7 +49,7 @@
 .hero-text {
     display: flex;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 1313px) {
         flex-direction: column;
     }
     
@@ -65,14 +65,14 @@
     .hero-text-grey {
         font-weight: 500;
         color: $light-font;
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1314px) {
             display: block;
         }
     }
     .hero-text-orng {
         color: $orange;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1314px) {
         display: block;
 
         font-size: 20px;
@@ -104,7 +104,7 @@
         display: inline-block;
         margin-bottom: 142.5px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1314px) {
         font-size: 14px;
         line-height: 1.214;
         letter-spacing: 0.14em;
@@ -128,7 +128,7 @@
 
     .hero-icon {
         margin-right: 10px;
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1314px) {
             position: absolute;
             left: 0;
             top: 0;
@@ -150,7 +150,7 @@
         color: #111518;
 
         max-width: 146px;
-        @media screen and (min-width: 1200px){
+        @media screen and (min-width: 1314px){
             max-width: 600px;
 
             padding-left: 84px;
@@ -162,7 +162,7 @@
         }
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1314px) {
         position: relative;
     }
 }
@@ -173,12 +173,12 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1313px) {
     .hero-item:not(:last-child) {
         margin-right: 21px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1314px) {
     .hero-item:first-child {
         margin-right: 27px;
     }
