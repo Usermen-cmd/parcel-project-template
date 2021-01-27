@@ -1,0 +1,28 @@
+.problems-wrapper {
+  padding-top: 50px;
+  background-color: $dark-bg;
+}
+.problems-title {
+  display: block;
+  font-family: $font;
+  min-width: 280px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 136%;
+  letter-spacing: 0.03em;
+  color: $white-font;
+
+  & .accent-title {
+    color: $orange;
+  }
+}
+
+.features-text {
+  width: 215px;
+  font-family: $font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.714;
+}
