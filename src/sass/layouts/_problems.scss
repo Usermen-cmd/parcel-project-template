@@ -1,5 +1,6 @@
 .problems-wrapper {
   padding-top: 50px;
+  padding-bottom: 367px;
   background-color: $dark-bg;
 }
 .problems-title {
@@ -17,12 +18,27 @@
     color: $orange;
   }
 }
-
-.features-text {
-  width: 215px;
-  font-family: $font;
+.features-overlay {
+  width: 280px;
+  padding: 20px 30px;
+  background-color: $white-font;
+}
+.features-item {
+  margin-bottom: 20px;
+}
+.features-number {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.643;
+  letter-spacing: 0.08em;
+  color: $orange;
+}
+.features-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.08em;
+  color: $dark-bg;
 }

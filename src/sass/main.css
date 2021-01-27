@@ -1,0 +1,139 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 183px;
+  }
+}
+
+.problems-wrapper {
+  padding-top: 50px;
+  padding-bottom: 367px;
+  background-color: #111518;
+}
+
+.problems-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  min-width: 280px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 136%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.problems-title .accent-title {
+  color: #FF6B09;
+}
+
+.features-overlay {
+  width: 280px;
+  padding: 20px 30px;
+  background-color: #ffffff;
+}
+
+.features-item {
+  margin-bottom: 20px;
+}
+
+.features-number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.643;
+  letter-spacing: 0.08em;
+  color: #FF6B09;
+}
+
+.features-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.08em;
+  color: #111518;
+}
+
+.how-we-do-it-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.how-we-do-it-item {
+  width: 280px;
+  height: 280px;
+  -webkit-box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
+  padding: 30px 25px 25px 25px;
+}
+
+.how-we-do-it-item:hover,
+.how-we-do-it-item:focus {
+  background-color: #FF6B09;
+  color: #ffffff;
+}
+
+.how-we-do-it-item:hover .how-we-do-it-list-text,
+.how-we-do-it-item:focus .how-we-do-it-list-text {
+  color: #ffffff;
+}
+
+.how-we-do-it-list-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  margin-bottom: 35px;
+}
+
+.how-we-do-it-list-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #B9B9B9;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+/*# sourceMappingURL=main.css.map */
