@@ -1,9 +1,26 @@
+
 .hero {
     padding-top: 50px;
     padding-bottom: 50px;
     // background-image: url('./../images/hero/hero-bg-mobile.jpg');
     // background-size: cover;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png') , url('./../images/hero/hero-bg-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: top 171.44px right 36.63px, top 188.59px right 18.25px, center top 0px ;
+
+        padding-top: 158px;
+    }
+    @media screen and (min-width: 1200px) {
+
+        padding: 228.5px 20px 130px;
+
+        // background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png') , url('./../images/hero/hero-bg-desctop.jpg');
+        // background-repeat: no-repeat;
+        // background-position: top 149.45px right 94.9px, top 187.86px right 53.75px, center top 0px ;
+    }
 }
+
 
 .hero-title {
     font-family: $font;
@@ -15,12 +32,27 @@
     color: $dark-font;
 
     margin-bottom: 30px;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        font-size: 28px;
+        line-height: 124%;
+        max-width: 332px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 58px;
+        line-height: 130%;
+        max-width: 642px;
+
+        margin-bottom: 24px;
+    }
 }
 
 .hero-text {
     display: flex;
-    flex-direction: column;
 
+    @media screen and (max-width: 1199px) {
+        flex-direction: column;
+    }
+    
     font-family: $font;
     font-style: normal;
     font-weight: 700;
@@ -33,12 +65,25 @@
     .hero-text-grey {
         font-weight: 500;
         color: $light-font;
+        @media screen and (min-width: 1200px) {
+            display: block;
+        }
     }
     .hero-text-orng {
         color: $orange;
     }
-}
+    @media screen and (min-width: 1200px) {
+        display: block;
 
+        font-size: 20px;
+        line-height: 164.9%;
+
+        margin-bottom: 40px;
+    }
+    .hero-text-black {
+        margin-right: 3px;
+    }
+}
 .hero-button {
     @extend %orange-btn;
 
@@ -54,16 +99,43 @@
 
     margin: 0 auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width:768px) {
+        display: inline-block;
+        margin-bottom: 142.5px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.214;
+        letter-spacing: 0.14em;
+
+        padding: 27px 25px 26px 26px;
+    }
 }
 .hero-list {
-    display: inline-block;
-    padding: 0px 32px;
+    @media screen and (max-width: 767px) {
+        display: inline-block;
+        padding: 0px 32px;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
 }
 .hero-item {
     display: flex;
+    min-width: 215px;
 
     .hero-icon {
         margin-right: 10px;
+        @media screen and (min-width: 1200px) {
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            width: 100px;
+            height: 102px;
+        }
     }
     .hero-item-text {
         font-family: $font;
@@ -78,13 +150,47 @@
         color: #111518;
 
         max-width: 146px;
+        @media screen and (min-width: 1200px){
+            max-width: 600px;
+
+            padding-left: 84px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+
+            font-size: 20px;
+            line-height: 164.9%;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        position: relative;
     }
 }
-.hero-item:not(:last-child){
-    margin-bottom: 30px;
+
+@media screen and (max-width: 767px) {
+    .hero-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .hero-item:not(:last-child) {
+        margin-right: 21px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .hero-item:first-child {
+        margin-right: 27px;
+    }
 }
 .hero-photo {
     width: 100%;
     margin-bottom: 77px;
+}
+
+@media screen and (min-width:768px) {
+    .hero-picture {
+        display: none;
+    }
 }
 
