@@ -42,6 +42,7 @@ img {
 }
 
 .problems-wrapper {
+  position: relative;
   padding-top: 50px;
   padding-bottom: 367px;
   background-color: #111518;
@@ -52,7 +53,7 @@ img {
   font-family: "Montserrat", sans-serif;
   min-width: 280px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 1000;
   font-size: 20px;
   line-height: 136%;
   letter-spacing: 0.03em;
@@ -63,17 +64,18 @@ img {
   color: #FF6B09;
 }
 
-.features-overlay {
+.problems-features-overlay {
+  position: absolute;
   width: 280px;
   padding: 20px 30px;
   background-color: #ffffff;
 }
 
-.features-item {
+.problems-features-item {
   margin-bottom: 20px;
 }
 
-.features-number {
+.problems-features-number {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -82,7 +84,7 @@ img {
   color: #FF6B09;
 }
 
-.features-text {
+.problems-features-text {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;

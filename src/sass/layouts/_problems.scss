@@ -1,4 +1,5 @@
 .problems-wrapper {
+  position: relative;
   padding-top: 50px;
   padding-bottom: 367px;
   background-color: $dark-bg;
@@ -8,7 +9,7 @@
   font-family: $font;
   min-width: 280px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 1000;
   font-size: 20px;
   line-height: 136%;
   letter-spacing: 0.03em;
@@ -18,15 +19,17 @@
     color: $orange;
   }
 }
-.features-overlay {
+.problems-features-overlay {
+  position: absolute;
+
   width: 280px;
   padding: 20px 30px;
   background-color: $white-font;
 }
-.features-item {
+.problems-features-item {
   margin-bottom: 20px;
 }
-.features-number {
+.problems-features-number {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -34,7 +37,7 @@
   letter-spacing: 0.08em;
   color: $orange;
 }
-.features-text {
+.problems-features-text {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
