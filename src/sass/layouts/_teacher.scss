@@ -1,0 +1,116 @@
+.section.teacher {
+  padding: 39px 0 50px;
+  background-color: $white-font;
+}
+
+.section-title {
+  font-family: $font;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+
+  color: $dark-font;
+
+  margin-bottom: 20px;
+  padding-left: 2px;
+}
+
+.teacher-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20.42px;
+  padding-left: 1px;
+}
+
+.teacher-name {
+  position: relative;
+
+  font-family: $font;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+
+  color: $dark-font;
+
+  margin-bottom: 30px;
+
+  &::after {
+    position: absolute;
+
+    content: '';
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    border-bottom: 1px solid $light-font;
+  }
+}
+
+.check-icon {
+  display: inline-block;
+  max-width: 17.08px;
+  height: 14px;
+  margin-right: 8.2px;
+}
+
+.teacher-achievments.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.teacher-achievments-list-item {
+  display: flex;
+  justify-content: baseline;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.06em;
+  margin-bottom: 22px;
+  padding-left: 1px;
+
+  color: $dark-font;
+}
+
+.dash {
+  font-family: $font;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.65;
+  letter-spacing: 0.08em;
+  margin-bottom: 25px;
+
+  color: $orange;
+}
+
+.education.list {
+  padding-left: 1px;
+  margin-bottom: 10px;
+}
+
+.education-list-item {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+
+  color: $light-font;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.certificate {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-decoration-line: underline;
+  padding-left: 1px;
+
+  color: $orange;
+}
