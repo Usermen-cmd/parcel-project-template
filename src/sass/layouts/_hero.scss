@@ -1,9 +1,10 @@
 
 .hero {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    // background-image: url('./../images/hero/hero-bg-mobile.jpg');
-    // background-size: cover;
+    padding-top: 109.5px;
+    padding-bottom: 49.5px;
+    background-image: url('./../images/hero/hero-bg-mobile.jpg');
+    background-repeat: no-repeat;
+
     @media screen and (min-width:768px) and (max-width:1313px) {
         background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png') , url('./../images/hero/hero-bg-tablet.jpg');
         background-repeat: no-repeat;
@@ -13,15 +14,16 @@
     }
     @media screen and (min-width: 1314px) {
 
-        padding: 228.5px 20px 130px;
 
-        // background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png') , url('./../images/hero/hero-bg-desctop.jpg');
-        // background-repeat: no-repeat;
-        // background-position: top 149.45px right 94.9px, top 187.86px right 53.75px, center top 0px ;
+        background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png') , url('./../images/hero/hero-bg-desctop.jpg');
+        background-repeat: no-repeat;
+        background-position: 873.92px 149.45px, 793.2px 187.86px, 0.5px 3.5px ;
+        background-size: 719.17px, 841.55px, 1688.5px;
+
+        padding-top: 228.5px;
     }
+
 }
-
-
 .hero-title {
     font-family: $font;
     font-style: normal;
@@ -110,10 +112,12 @@
         letter-spacing: 0.14em;
 
         padding: 27px 25px 26px 26px;
+        margin-bottom: 241px;
     }
 }
 .hero-list {
     @media screen and (max-width: 767px) {
+        margin-top: 77px;
         display: inline-block;
         padding: 0px 32px;
     }
@@ -184,9 +188,10 @@
     }
 }
 .hero-photo {
-    width: 100%;
-    margin-bottom: 77px;
+    width: 208px;
+    margin: 0 auto;
 }
+
 
 @media screen and (min-width:768px) {
     .hero-picture {
