@@ -2,27 +2,45 @@
 .hero {
     padding-top: 109.5px;
     padding-bottom: 49.5px;
-    background-image: url('./../images/hero/hero-bg-mobile.jpg');
+    background-image: url('./../images/hero/hero-bg-mobile.png');
     background-repeat: no-repeat;
+    background-position: left 1px bottom 270px;
+
+    @media screen and (max-width: 1313px) {
+        background-size: 100%;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: url('./../images/hero/hero-bg-mobile@2x.png');
+    }
+    
 
     @media screen and (min-width:768px) and (max-width:1313px) {
-        background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png') , url('./../images/hero/hero-bg-tablet.jpg');
+        background-image: url('./../images/hero/hero-bg-tablet.png');
         background-repeat: no-repeat;
-        background-position: top 171.44px right 36.63px, top 188.59px right 18.25px, center top 0px ;
+        background-position: left 1px bottom 120px;
 
         padding-top: 158px;
     }
+
     @media screen and (min-width: 1314px) {
-
-
-        background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png') , url('./../images/hero/hero-bg-desctop.jpg');
+        background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png'), url('./../images/hero/hero-bg-desctop.png');
         background-repeat: no-repeat;
-        background-position: 873.92px 149.45px, 793.2px 187.86px, 0.5px 3.5px ;
-        background-size: 719.17px, 841.55px, 1688.5px;
-
+        background-position: top 149.45px right 94.9px, top 187.86px right 45.75px, left 1px bottom 210px;
+        
         padding-top: 228.5px;
     }
 
+}
+
+.hero .container {
+    @media screen and (min-width:768px) and (max-width: 1313px) {
+        background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png'); 
+        background-position: top 4px right 36.63px, top 16px right 18.25px;
+        background-repeat: no-repeat;
+    }
 }
 .hero-title {
     font-family: $font;
