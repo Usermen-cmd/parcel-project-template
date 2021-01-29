@@ -8,6 +8,7 @@
 
   @media screen and (min-width: 1314px) {
     padding-top: 130px;
+    padding-bottom: 130px;
   }
 }
 
@@ -39,6 +40,8 @@
 .teacher-img {
   width: 100%;
   height: auto;
+  object-fit: contain;
+  object-position: center;
 }
 
 .teacher-picture {
@@ -48,13 +51,12 @@
   @media screen and (min-width: 768px) {
     margin-bottom: unset;
     margin-left: 3px;
-    width: 243px;
+    width: 100%;
   }
 
   @media screen and (min-width: 1314px) {
     margin-left: unset;
-    width: 530px;
-    height: 667px;
+    width: 100%;
   }
 }
 
