@@ -8,6 +8,19 @@
   background-position: 193px 1509px;
   background-size: 186px 137px;
 
+  .features-overlay {
+    top: 1700px;
+
+    @media screen and (min-width: 768px) {
+      top: 1230px;
+    }
+
+    @media screen and (min-width: 1314px) {
+      margin-top: 0;
+      top: 1154px;
+    }
+  }
+
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
     screen and (min-resolution: 192dpi) and (min-width: 320px),
     screen and (min-resolution: 2dppx) and (min-width: 320px) {
@@ -16,7 +29,7 @@
 
   @media screen and (min-width: 768px) {
     padding-top: 60px;
-    padding-bottom: 392px;
+    padding-bottom: 172px;
     background-position: 450px 846px;
     background-size: 384px 240px;
   }
@@ -82,17 +95,16 @@
   .program-list-wrapper {
     display: flex;
     position: relative;
-    width: 1232px;
   }
 
   .program-list-wrapper::before {
     content: '';
     background-color: rgba(255, 255, 255, 0.5);
-    width: 1069px;
+    width: 1366px;
     height: 1px;
     position: absolute;
     top: -41px;
-    left: 8px;
+    left: -33px;
   }
 }
 
@@ -239,6 +251,7 @@
 
   @media screen and (min-width: 768px) {
     font-size: 26px;
+    text-align: center;
   }
 
   @media screen and (min-width: 1314px) {
