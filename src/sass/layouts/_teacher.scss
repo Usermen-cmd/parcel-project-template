@@ -85,6 +85,10 @@
     @media screen and (min-width: 768px) {
       width: 401px;
     }
+
+    @media screen and (min-width: 1314px) {
+      width: 641px;
+    }
   }
 }
 
@@ -99,6 +103,27 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 19px;
+
+  @media screen and (min-width: 1314px) {
+    margin-bottom: 29px;
+  }
+
+  &::after {
+    display: block;
+    content: '';
+    width: 20px;
+    border-bottom: 2px solid $orange;
+    margin-top: 22px;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 17px;
+    }
+
+    @media screen and (min-width: 1314px) {
+      margin-top: 32px;
+    }
+  }
 }
 
 .teacher-achievments-list-item {
@@ -109,31 +134,14 @@
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.06em;
-  margin-bottom: 20px;
+
   padding-left: 1px;
 
-  &:last-child {
-    @media screen and (min-width: 768px) {
-      margin-bottom: 17px;
-    }
-  }
-
-  color: $dark-font;
-}
-
-.dash {
-  font-family: $font;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.65;
-  letter-spacing: 0.08em;
-  margin-bottom: 22px;
-
-  @media screen and (min-width: 768px) {
+  &:not(:last-child) {
     margin-bottom: 20px;
   }
 
-  color: $orange;
+  color: $dark-font;
 }
 
 .education.list {
