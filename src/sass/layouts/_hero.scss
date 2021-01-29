@@ -1,6 +1,6 @@
 
 .hero {
-    padding-top: 109.5px;
+    padding-top: 0.47px;
     padding-bottom: 49.5px;
     background-image: url('./../images/hero/hero-bg-mobile.png');
     background-repeat: no-repeat;
@@ -22,7 +22,8 @@
         background-repeat: no-repeat;
         background-position: left 1px bottom 120px;
 
-        padding-top: 158px;
+        padding-top: 8px;
+        padding-bottom: 50px;
 
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
@@ -34,9 +35,11 @@
     @media screen and (min-width: 1314px) {
         background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png'), url('./../images/hero/hero-bg-desctop.png');
         background-repeat: no-repeat;
-        background-position: top 149.45px right 94.9px, top 187.86px right 45.75px, left 1px bottom 210px;
+        background-position: top 0.95px right 94.9px, top 39.36px right 45.75px, left 1px bottom 210px;
         
-        padding-top: 228.5px;
+        padding-top: 80px;
+        padding-bottom: 130px;
+
         @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
