@@ -507,7 +507,7 @@ img {
     max-width: 600px;
     padding-left: 84px;
     padding-top: 18px;
-    padding-bottom: 19px;
+    padding-bottom: 21px;
     font-size: 20px;
     line-height: 164.9%;
   }
@@ -583,16 +583,15 @@ img {
 
 .features-overlay {
   position: absolute;
-  margin-top: 27px;
   max-width: 280px;
   padding: 20px 30px;
   background-color: #ffffff;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 
 .features-overlay .features-number {
-  font-family: "$font";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -602,7 +601,7 @@ img {
 }
 
 .features-overlay .features-text {
-  font-family: "$font";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -890,6 +889,20 @@ img {
   background-position: 193px 1509px;
   background-size: 186px 137px;
 }
+.program .features-overlay {
+  top: 1700px;
+}
+@media screen and (min-width: 768px) {
+  .program .features-overlay {
+    top: 1230px;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .program .features-overlay {
+    margin-top: 0;
+    top: 1154px;
+  }
+}
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .program {
     background-image: url("/main-pic-1@2x.2146d477.png");
@@ -898,7 +911,7 @@ img {
 @media screen and (min-width: 768px) {
   .program {
     padding-top: 60px;
-    padding-bottom: 392px;
+    padding-bottom: 172px;
     background-position: 450px 846px;
     background-size: 384px 240px;
   }
@@ -962,17 +975,16 @@ img {
   .program-list-wrapper {
     display: flex;
     position: relative;
-    width: 1232px;
   }
 
   .program-list-wrapper::before {
     content: "";
     background-color: rgba(255, 255, 255, 0.5);
-    width: 1069px;
+    width: 1366px;
     height: 1px;
     position: absolute;
     top: -41px;
-    left: 8px;
+    left: -33px;
   }
 }
 .program-item {
@@ -1141,6 +1153,7 @@ img {
 @media screen and (min-width: 768px) {
   .program-wrapper-title {
     font-size: 26px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1314px) {
