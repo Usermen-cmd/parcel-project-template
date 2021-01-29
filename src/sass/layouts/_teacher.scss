@@ -1,6 +1,14 @@
 .section.teacher {
-  padding: 39px 0 50px;
+  padding: 270px 0 50px;
   background-color: $white-font;
+
+  @media screen and (min-width: 768px) {
+    padding: 302px 0 50px 0;
+  }
+
+  @media screen and (min-width: 1314px) {
+    padding: 329px 295px 130px 180px;
+  }
 }
 
 .section-title {
@@ -14,13 +22,29 @@
 
   margin-bottom: 20px;
   padding-left: 2px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.31;
+    margin-bottom: 30px;
+  }
+}
+
+.teacher-picture {
+  display: flex;
+  margin-left: 1px;
+  margin-bottom: 20.42px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 3px;
+    width: 243px;
+    height: 305.58px;
+  }
 }
 
 .teacher-img {
   width: 100%;
   height: auto;
-  margin-bottom: 20.42px;
-  padding-left: 1px;
 }
 
 .teacher-name {
@@ -45,6 +69,10 @@
     bottom: -10px;
     width: 100%;
     border-bottom: 1px solid $light-font;
+
+    @media screen and (min-width: 768px) {
+      width: 401px;
+    }
   }
 }
 
@@ -52,7 +80,7 @@
   display: inline-block;
   max-width: 17.08px;
   height: 14px;
-  margin-right: 8.2px;
+  margin-right: 8.92px;
 }
 
 .teacher-achievments.list {
@@ -69,8 +97,14 @@
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.06em;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding-left: 1px;
+
+  &:last-child {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 17px;
+    }
+  }
 
   color: $dark-font;
 }
@@ -81,7 +115,11 @@
   font-size: 20px;
   line-height: 1.65;
   letter-spacing: 0.08em;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
 
   color: $orange;
 }
@@ -113,4 +151,17 @@
   padding-left: 1px;
 
   color: $orange;
+}
+
+@media screen and (min-width: 768px) {
+  .teacher-wrapper {
+    display: block;
+    margin-left: 40px;
+    width: 402px;
+  }
+
+  .section-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
 }
