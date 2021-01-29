@@ -1,13 +1,13 @@
 .section.teacher {
-  padding-top: 270px;
+  padding-top: 39px;
   background-color: $white-font;
 
   @media screen and (min-width: 768px) {
-    padding-top: 302px;
+    padding-top: 50px;
   }
 
   @media screen and (min-width: 1314px) {
-    padding: 329px 0 130px 0;
+    padding-top: 130px;
   }
 }
 
@@ -54,7 +54,7 @@
   @media screen and (min-width: 1314px) {
     margin-left: unset;
     width: 530px;
-    // height: 667px;
+    height: 667px;
   }
 }
 
@@ -99,6 +99,10 @@
   max-width: 17.08px;
   height: 14px;
   margin-right: 8.92px;
+
+  @media screen and (min-width: 1314px) {
+    margin-right: 34.59px;
+  }
 }
 
 .teacher-achievments.list {
