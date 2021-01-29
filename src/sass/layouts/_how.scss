@@ -95,6 +95,7 @@
   .how-we-do-it-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .how-we-do-it-item {
