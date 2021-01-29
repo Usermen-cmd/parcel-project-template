@@ -1,0 +1,184 @@
+.section.teacher {
+  padding-top: 270px;
+  background-color: $white-font;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 302px;
+  }
+
+  @media screen and (min-width: 1314px) {
+    padding: 329px 295px 130px 180px;
+  }
+}
+
+.section-title {
+  font-family: $font;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+
+  color: $dark-font;
+
+  margin-bottom: 20px;
+  padding-left: 2px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.31;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1314px) {
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+  }
+}
+
+.teacher-picture {
+  display: flex;
+  margin-bottom: 20.42px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: unset;
+    margin-left: 3px;
+    width: 243px;
+    height: 305.58px;
+  }
+
+  @media screen and (min-width: 1314px) {
+    margin-left: unset;
+    width: 530px;
+    height: 667px;
+  }
+}
+
+.teacher-img {
+  width: 100%;
+  height: auto;
+}
+
+.teacher-name {
+  position: relative;
+
+  font-family: $font;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+
+  color: $dark-font;
+
+  margin-bottom: 30px;
+
+  &::after {
+    position: absolute;
+
+    content: '';
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    border-bottom: 1px solid $light-font;
+
+    @media screen and (min-width: 768px) {
+      width: 401px;
+    }
+  }
+}
+
+.check-icon {
+  display: inline-block;
+  max-width: 17.08px;
+  height: 14px;
+  margin-right: 8.92px;
+}
+
+.teacher-achievments.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.teacher-achievments-list-item {
+  display: flex;
+  justify-content: baseline;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+  padding-left: 1px;
+
+  &:last-child {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 17px;
+    }
+  }
+
+  color: $dark-font;
+}
+
+.dash {
+  font-family: $font;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.65;
+  letter-spacing: 0.08em;
+  margin-bottom: 22px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  color: $orange;
+}
+
+.education.list {
+  padding-left: 1px;
+  margin-bottom: 10px;
+}
+
+.education-list-item {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+
+  color: $light-font;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.certificate {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-decoration-line: underline;
+  padding-left: 1px;
+
+  color: $orange;
+}
+
+@media screen and (min-width: 768px) {
+  .section-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .teacher-wrapper {
+    display: block;
+    margin-left: 40px;
+    width: 402px;
+
+    @media screen and (min-width: 1314px) {
+      margin-left: 30px;
+      width: 642px;
+    }
+  }
+}
