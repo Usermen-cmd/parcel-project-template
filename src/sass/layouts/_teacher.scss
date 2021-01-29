@@ -72,6 +72,10 @@
 
   margin-bottom: 30px;
 
+  @media screen and (min-width: 1314px) {
+    margin-bottom: 45px;
+  }
+
   &::after {
     position: absolute;
 
@@ -87,6 +91,7 @@
     }
 
     @media screen and (min-width: 1314px) {
+      bottom: -15px;
       width: 641px;
     }
   }
