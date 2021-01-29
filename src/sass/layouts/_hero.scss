@@ -23,6 +23,12 @@
         background-position: left 1px bottom 120px;
 
         padding-top: 158px;
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: url('./../images/hero/hero-bg-tablet@2x.png');
+        }
     }
 
     @media screen and (min-width: 1314px) {
@@ -31,10 +37,13 @@
         background-position: top 149.45px right 94.9px, top 187.86px right 45.75px, left 1px bottom 210px;
         
         padding-top: 228.5px;
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png'), url('./../images/hero/hero-bg-desctop.png');
+        }
     }
-
 }
-
 .hero .container {
     @media screen and (min-width:768px) and (max-width: 1313px) {
         background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png'); 
@@ -43,11 +52,7 @@
     }
 }
 .hero-title {
-    font-family: $font;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 136%;
+    @include font( $font, normal, 800, 20px, 136%);
     letter-spacing: 0.03em;
     color: $dark-font;
 
@@ -65,19 +70,13 @@
         margin-bottom: 24px;
     }
 }
-
 .hero-text {
     display: flex;
 
     @media screen and (max-width: 1313px) {
         flex-direction: column;
     }
-    
-    font-family: $font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.571;
+    @include font( $font, normal, 700, 14px, 1.571);
     letter-spacing: 0.08em;
     color: $dark-font;
 
@@ -106,12 +105,7 @@
 }
 .hero-button {
     @extend %orange-btn;
-
-    font-family: $font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 1.25;
+    @include font( $font, normal, 700, 12px, 1.25);
     display: flex;
     align-items: center;
     text-align: center;
@@ -139,7 +133,6 @@
         display: inline-block;
         padding: 0px 32px;
     }
-    
     @media screen and (min-width:768px) {
         display: flex;
     }
@@ -151,20 +144,11 @@
     .hero-icon {
         margin-right: 10px;
         @media screen and (min-width: 1314px) {
-            position: absolute;
-            left: 0;
-            top: 0;
-
-            width: 100px;
-            height: 102px;
+            display: none;
         }
     }
     .hero-item-text {
-        font-family: $font;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.429;
+        @include font( $font, normal, 700, 14px, 1.429);
     
         display: flex;
         align-items: center;
@@ -177,40 +161,52 @@
 
             padding-left: 84px;
             padding-top: 18px;
-            padding-bottom: 18px;
+            padding-bottom: 19px;
 
             font-size: 20px;
             line-height: 164.9%;
         }
     }
-
     @media screen and (min-width: 1314px) {
         position: relative;
     }
 }
-
 @media screen and (max-width: 767px) {
     .hero-item:not(:last-child){
         margin-bottom: 30px;
     }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1313px) {
     .hero-item:not(:last-child) {
         margin-right: 21px;
     }
 }
 @media screen and (min-width: 1314px) {
-    .hero-item:first-child {
-        margin-right: 27px;
+    .hero-item-text.icon-girl {
+        background-image: url('./../images/icon/girl.svg');
+        background-position: left 0px ;
+        background-repeat: no-repeat;
+
+        max-width: 485px;
+    }
+    .hero-item-text.icon-phone {
+        background-image: url('./../images/icon/phone.svg');
+        background-position: left 0px ;
+        background-repeat: no-repeat;
+
+        max-width: 380px;
+        margin-right: 60px;
+    }
+    .hero-item-text.icon-dollar {
+        background-image: url('./../images/icon/dollarr.svg');
+        background-position: left 0px ;
+        background-repeat: no-repeat;
     }
 }
 .hero-photo {
     width: 208px;
     margin: 0 auto;
 }
-
-
 @media screen and (min-width:768px) {
     .hero-picture {
         display: none;
