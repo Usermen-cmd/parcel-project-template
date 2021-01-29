@@ -1,4 +1,5 @@
 .problems {
+  position: relative;
   padding: 50px 0 367px;
   background-color: $dark-font;
 }
@@ -29,6 +30,7 @@
 
   background: #ffffff;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  top: 205px;
 }
 
 .features-overlay .features-number {
@@ -66,6 +68,7 @@
     max-width: 688px;
     padding: 30px 100px;
     box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+    top: 188px;
 
     & .features-list {
       display: flex;
@@ -114,6 +117,7 @@
     max-width: 1314px;
     padding: 70px 112px 62px 114px;
     margin-top: 70px;
+    top: 348px;
 
     & .features-list {
       display: flex;
