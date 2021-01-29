@@ -30,12 +30,12 @@
 }
 
 .features-overlay .features-number {
-  @include font('Montserrat', normal, 700, 14px, 1.643);
+  @include font('$font', normal, 700, 14px, 1.643);
   letter-spacing: 0.08em;
   color: $orange;
 }
 .features-overlay .features-text {
-  @include font('Montserrat', normal, 700, 14px, 1.43);
+  @include font('$font', normal, 700, 14px, 1.43);
   letter-spacing: 0.08em;
   color: $dark-font;
 }
