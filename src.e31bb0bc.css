@@ -1276,6 +1276,8 @@ img {
 }
 @media screen and (min-width: 1314px) {
   .check-icon {
+    max-width: 24.41px;
+    height: 20px;
     margin-right: 34.59px;
   }
 }
