@@ -3,7 +3,7 @@
   padding-bottom: 50px;
   position: relative;
 
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     padding: 130px 112px;
   }
 }
@@ -36,7 +36,7 @@
   &--right {
     right: 28px;
   }
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     bottom: 409px;
   }
   &--left {
@@ -57,7 +57,7 @@
     margin-bottom: 30px;
   }
 
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     font-size: 46px;
   }
 }
@@ -73,7 +73,7 @@
     margin-bottom: 30px;
     width: 100%;
   }
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     padding: 50px 112px 50px 82px;
     margin-bottom: 40px;
   }
@@ -85,7 +85,7 @@
     text-align: start;
   }
 
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     margin-left: 40px;
   }
 }
@@ -106,12 +106,12 @@
   color: $orange;
   margin-bottom: 10px;
 
-  @media screen and (min-width: 768px) and (max-width: 1313px) {
+  @media screen and (min-width: 768px) and (max-width: 1343px) {
     font-size: 20px;
     margin-bottom: 20px;
   }
 
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     font-size: 30px;
     line-height: 1.23;
   }
@@ -126,7 +126,7 @@
   @media screen and (min-width: 768px) {
     margin: 0 0 20px;
   }
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     padding-right: 268px;
     font-size: 14px;
     line-height: 1.21;
@@ -136,7 +136,7 @@
 .review__student-comment {
   @include font($font, normal, 500, 12px, 1.67);
   color: $sec-light-font;
-  @media screen and (min-width: 1314px) {
+  @media screen and (min-width: 1344px) {
     font-size: 18px;
     line-height: 1.6;
   }

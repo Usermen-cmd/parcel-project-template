@@ -30,9 +30,13 @@ img {
     padding: 0 40px;
   }
 }
-@media screen and (min-width: 1314px) {
+@media screen and (min-width: 1344px) {
   .container {
-    max-width: 1314px;
-    padding: 0;
+    max-width: 1344px;
+    padding: 15px;
   }
+}
+section {
+  max-width: 1920px;
+  margin: 0 auto;
 }

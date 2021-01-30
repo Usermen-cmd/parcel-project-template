@@ -90,13 +90,13 @@
   }
 }
 
-@media screen and (max-width: 1313px) {
+@media screen and (max-width: 1343px) {
   .features-overlay .features-item:nth-child(-n + 4) {
     margin-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 1314px) {
+@media screen and (min-width: 1344px) {
   .problems {
     padding: 100px 0 282px;
     background-image: url('./../images/problems/noun_Campfire.png');
@@ -116,8 +116,7 @@
   .features-overlay {
     max-width: 1314px;
     padding: 70px 112px 62px 114px;
-    margin-top: 70px;
-    top: 348px;
+    top: 383px;
 
     & .features-list {
       display: flex;
