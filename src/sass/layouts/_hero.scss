@@ -5,6 +5,7 @@
     background-image: url('./../images/hero/hero-bg-mobile.png');
     background-repeat: no-repeat;
     background-position: left 1px bottom 270px;
+    background-color: rgba(229, 229, 229, .1);
 
     @media screen and (max-width: 1343px) {
         background-size: 100%;
@@ -50,7 +51,7 @@
         background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png'), url('./../images/hero/hero-bg-desctop.png');
         background-repeat: no-repeat;
         background-position: top 0.95px right 94.9px, top 39.36px right 45.75px, left 1px bottom 285px;
-        
+        background-size: auto, auto, 100%;
         padding-top: 80px;
         padding-bottom: 130px;
 
