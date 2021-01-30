@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: left 1px bottom 270px;
 
-    @media screen and (max-width: 1313px) {
+    @media screen and (max-width: 1343px) {
         background-size: 100%;
     }
 
@@ -32,7 +32,7 @@
         }
     }
 
-    @media screen and (min-width: 1314px) {
+    @media screen and (min-width: 1344px) {
         background-image: url('./../images/hero/hero-bg3-desctop.png'), url('./../images/hero/hero-bg2-desctop.png'), url('./../images/hero/hero-bg-desctop.png');
         background-repeat: no-repeat;
         background-position: top 0.95px right 94.9px, top 39.36px right 45.75px, left 1px bottom 210px;
@@ -48,7 +48,7 @@
     }
 }
 .hero .container {
-    @media screen and (min-width:768px) and (max-width: 1313px) {
+    @media screen and (min-width:768px) and (max-width: 1343px) {
         background-image: url('./../images/hero/hero-bg3-tablet.png'), url('./../images/hero/hero-bg2-tablet.png'); 
         background-position: top 4px right 36.63px, top 16px right 18.25px;
         background-repeat: no-repeat;
@@ -65,7 +65,7 @@
         line-height: 124%;
         max-width: 332px;
     }
-    @media screen and (min-width: 1314px) {
+    @media screen and (min-width: 1344px) {
         font-size: 58px;
         line-height: 130%;
         max-width: 642px;
@@ -76,7 +76,7 @@
 .hero-text {
     display: flex;
 
-    @media screen and (max-width: 1313px) {
+    @media screen and (max-width: 1343px) {
         flex-direction: column;
     }
     @include font( $font, normal, 700, 14px, 1.571);
@@ -87,14 +87,14 @@
     .hero-text-grey {
         font-weight: 500;
         color: $light-font;
-        @media screen and (min-width: 1314px) {
+        @media screen and (min-width: 1344px) {
             display: block;
         }
     }
     .hero-text-orng {
         color: $orange;
     }
-    @media screen and (min-width: 1314px) {
+    @media screen and (min-width: 1344px) {
         display: block;
 
         font-size: 20px;
@@ -121,7 +121,7 @@
         display: inline-block;
         margin-bottom: 142.5px;
     }
-    @media screen and (min-width: 1314px) {
+    @media screen and (min-width: 1344px) {
         font-size: 14px;
         line-height: 1.214;
         letter-spacing: 0.14em;
@@ -146,7 +146,7 @@
 
     .hero-icon {
         margin-right: 10px;
-        @media screen and (min-width: 1314px) {
+        @media screen and (min-width: 1344px) {
             display: none;
         }
     }
@@ -159,7 +159,7 @@
         color: #111518;
 
         max-width: 146px;
-        @media screen and (min-width: 1314px){
+        @media screen and (min-width: 1344px){
             max-width: 600px;
 
             padding-left: 84px;
@@ -170,7 +170,7 @@
             line-height: 164.9%;
         }
     }
-    @media screen and (min-width: 1314px) {
+    @media screen and (min-width: 1344px) {
         position: relative;
     }
 }
@@ -179,12 +179,12 @@
         margin-bottom: 30px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1313px) {
+@media screen and (min-width: 768px) and (max-width: 1343px) {
     .hero-item:not(:last-child) {
         margin-right: 21px;
     }
 }
-@media screen and (min-width: 1314px) {
+@media screen and (min-width: 1344px) {
     .hero-item-text.icon-girl {
         background-image: url('./../images/icon/girl.svg');
         background-position: left 0px ;
