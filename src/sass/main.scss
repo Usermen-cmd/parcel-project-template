@@ -1,17 +1,18 @@
-@import "./components/base";
-@import "./components/fonts";
-@import "./components/variables";
-@import "./components/mixins";
-@import "./components/plaseholders";
+@import './components/base';
+@import './components/fonts';
+@import './components/variables';
+@import './components/mixins';
+@import './components/plaseholders';
+@import './components/slick';
+@import './components/slick-theme';
 
-
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/problems";
-@import "./layouts/how";
-@import "./layouts/program";
-@import "./layouts/teacher";
-@import "./layouts/guarantee";
-@import "./layouts/reviews";
-@import "./layouts/registration-form";
-@import "./layouts/footer";
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/problems';
+@import './layouts/how';
+@import './layouts/program';
+@import './layouts/teacher';
+@import './layouts/guarantee';
+@import './layouts/reviews';
+@import './layouts/registration-form';
+@import './layouts/footer';
