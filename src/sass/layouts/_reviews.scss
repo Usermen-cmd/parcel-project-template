@@ -13,151 +13,40 @@
   text-align: center;
 }
 
-// .slick {
-//   &-arrow {
-//     // font-size: 0;
-//     width: 25px;
-//     height: 14px;
-//     padding: 0;
-//     border: none;
-//     background-color: transparent;
-//     position: absolute;
-//     fill: $orange;
-//     background-color: blue;
-//     &-prev {
-//       background-image: url('./../images/icon/arrow-left.svg');
-//       background-size: cover;
-//       background-color: blue;
-//     }
-//   }
-//   @media screen and (max-width: 767px) {
-//     bottom: 70px;
-//     &-prev {
-//       left: 20px;
-//     }
-//     &--right {
-//       right: 20px;
-//     }
-//   }
-//   @media screen and (min-width: 768px) {
-//     bottom: 290px;
-//     &-prev {
-//       left: 28px;
-//     }
-//     &--right {
-//       right: 28px;
-//     }
-//   }
-//   @media screen and (min-width: 1344px) {
-//     bottom: 409px;
-//     &-prev {
-//       left: 43px;
-//     }
-//     &--right {
-//       right: 43px;
-//     }
-//   }
-// }
-
-.slick-arrow {
-  font-size: 0;
-  width: 25px;
-  height: 14px;
+.review__button {
   padding: 0;
   border: none;
   background-color: transparent;
   position: absolute;
   fill: $orange;
-  // background-color: blue;
-}
-
-.slick-prev {
-  // background-color: red;
-  background-image: url('../images/icon/arrow-left1.svg');
-  fill: $orange;
-}
-@media screen and (min-width: 1344px) {
-  .slick-prev {
+  @media screen and (max-width: 767px) {
+    bottom: 70px;
+    &--left {
+      left: 20px;
+    }
+    &--right {
+      right: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    bottom: 290px;
+    &--left {
+      left: 28px;
+    }
+    &--right {
+      right: 28px;
+    }
+  }
+  @media screen and (min-width: 1344px) {
     bottom: 409px;
-    left: 43px;
+    &--left {
+      left: 43px;
+    }
+    &--right {
+      right: 43px;
+    }
   }
 }
-//   &-prev {
-//     background-image: url('./../images/icon/arrow-left.svg');
-//     background-size: cover;
-//     background-color: blue;
-//   }
-// }
-// @media screen and (max-width: 767px) {
-//   bottom: 70px;
-//   &-prev {
-//     left: 20px;
-//   }
-//   &--right {
-//     right: 20px;
-//   }
-// }
-// @media screen and (min-width: 768px) {
-//   bottom: 290px;
-//   &-prev {
-//     left: 28px;
-//   }
-//   &--right {
-//     right: 28px;
-//   }
-// }
-// @media screen and (min-width: 1344px) {
-//   bottom: 409px;
-//   &-prev {
-//     left: 43px;
-//   }
-//   &--right {
-//     right: 43px;
-//   }
-// }
-
-// .review__button {
-//   padding: 0;
-//   border: none;
-//   background-color: transparent;
-//   position: absolute;
-//   fill: $orange;
-//   &--left {
-//     background-image: url('../images/icon/arrow-left.svg');
-//   }
-
-//   @media screen and (max-width: 767px) {
-//     bottom: 70px;
-//     &--left {
-//       left: 20px;
-//     }
-//     &--right {
-//       right: 20px;
-//     }
-//   }
-//   @media screen and (min-width: 768px) {
-//     bottom: 290px;
-//     &--left {
-//       left: 28px;
-//     }
-//     &--right {
-//       right: 28px;
-//     }
-//   }
-//   @media screen and (min-width: 1344px) {
-//     bottom: 409px;
-//     &--left {
-//       left: 43px;
-//     }
-//     &--right {
-//       right: 43px;
-//     }
-//   }
-// }
-
-// .slick-slide {
-//   display: flex;
-// }
 
 .review__title {
   @include font($font, normal, 800, 20px, 1.3);
@@ -186,7 +75,7 @@
     width: 100%;
   }
   @media screen and (min-width: 1344px) {
-    padding: 50px 112px;
+    padding: 50px 112px 50px 82px;
     margin-bottom: 40px;
   }
 }
