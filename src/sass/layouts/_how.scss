@@ -95,11 +95,10 @@
   .how-we-do-it-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .how-we-do-it-item {
-    flex-basis: calc((100% - 2 * 20px) / 2);
+    flex-basis: calc((100% - 20px) / 2);
     margin-bottom: 27px;
     margin-right: 20px;
     width: 334px;
@@ -174,6 +173,6 @@
   }
 
   .how-we-do-it-item {
-    flex-basis: calc((100% - 3 * 20px) / 3);
+    flex-basis: calc((100% - 40px) / 3);
   }
 }
