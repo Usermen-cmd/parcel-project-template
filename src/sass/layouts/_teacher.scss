@@ -22,12 +22,13 @@
   color: $dark-font;
 
   margin-bottom: 20px;
-  margin-left: 2px;
+  padding-left: 2px;
 
   @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 1.3;
     margin-bottom: 30px;
+    padding-left: 3px;
   }
 
   @media screen and (min-width: 1344px) {
@@ -38,25 +39,29 @@
 }
 
 .teacher-img {
-  width: 100%;
+  width: 243px;
   height: auto;
   object-fit: contain;
   object-position: center;
+
+  @media screen and (min-width: 1344px) {
+    width: 530px;
+  }
 }
 
 .teacher-picture {
   display: flex;
   margin-bottom: 20.42px;
+  max-width: 243px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: unset;
-    margin-left: 3px;
-    width: 100%;
+    padding-left: 3px;
   }
 
   @media screen and (min-width: 1344px) {
-    margin-left: unset;
-    width: 100%;
+    padding-left: unset;
+    max-width: 530px;
   }
 }
 
@@ -88,7 +93,6 @@
     bottom: -10px;
     width: 100%;
     border-bottom: 1px solid $light-font;
-    margin: 0 auto;
 
     @media screen and (min-width: 1344px) {
       bottom: -15px;
@@ -97,7 +101,7 @@
 }
 
 .check-icon {
-  display: inline-block;
+  display: block;
   max-width: 17.08px;
   height: 14px;
   margin-right: 8.92px;
@@ -159,8 +163,12 @@
 }
 
 .education.list {
-  margin-left: 1px;
+  padding-left: 1px;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1344px) {
+    margin-bottom: 20px;
+  }
 }
 
 .education-list-item {
@@ -205,12 +213,16 @@
 
   .teacher-wrapper {
     display: block;
-    margin-left: 40px;
     width: 100%;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 40px;
+      max-width: 402px;
+    }
 
     @media screen and (min-width: 1344px) {
       margin-left: 30px;
-      width: 100%;
+      max-width: 642px;
     }
   }
 }
