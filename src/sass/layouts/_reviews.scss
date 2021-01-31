@@ -13,36 +13,50 @@
   text-align: center;
 }
 
-.review__button {
+.slick-arrow {
+  width: 25px;
+  height: 14px;
   padding: 0;
   border: none;
   background-color: transparent;
   position: absolute;
   fill: $orange;
+  font-size: 0;
+  opacity: 1;
+  transition: $transSet;
+
+  &:active {
+    opacity: 0.5;
+  }
+
   @media screen and (max-width: 767px) {
     bottom: 70px;
-    &--left {
+    &.slick-prev {
       left: 20px;
+      background-image: url('../images/icon/arrow-left.svg');
+      background-size: cover;
     }
-    &--right {
+    &.slick-next {
       right: 20px;
+      background-image: url('../images/icon/arrow-right.svg');
+      background-size: cover;
     }
   }
   @media screen and (min-width: 768px) {
     bottom: 290px;
-    &--left {
+    &.slick-prev {
       left: 28px;
     }
-    &--right {
+    &.slick-next {
       right: 28px;
     }
   }
   @media screen and (min-width: 1344px) {
     bottom: 409px;
-    &--left {
+    &.slick-prev {
       left: 43px;
     }
-    &--right {
+    &.slick-next {
       right: 43px;
     }
   }
@@ -63,7 +77,7 @@
   }
 }
 
-.review__card {
+.review__card.slick-slide {
   padding: 20px 20px 30px;
   margin: 0 auto 20px;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
@@ -152,7 +166,19 @@
   text-decoration: underline;
 }
 
+.slick-list.draggable {
+  position: static;
+  // display: flex;
+  padding: 0 !important;
+}
+
+.slick-track {
+  display: flex;
+  // transform: none !important;
+}
+
 .review__students-list {
+  position: static;
   display: flex;
   margin: 0 auto;
   @media screen and (max-width: 767px) {
@@ -166,15 +192,27 @@
 }
 
 .review__student {
-  min-width: 54px;
-  &:not(:first-child) {
-    margin-left: 10px;
-  }
+  width: 64px !important;
+  height: 56px;
+  // margin-left: 10px;
+  // margin-right: -10px;
   @media screen and (min-width: 768px) {
-    &:not(:first-child) {
-      margin-left: 30px;
-    }
+    width: 84px;
+    // margin-left: 30px;
+    // margin-right: -30px;
   }
+  // margin: 0 5px;
+  // @media screen and (min-width: 768px) {
+  //   margin: 0 15px;
+  // }
+  // &:not(:first-child) {
+  //   margin-left: 10px;
+  // }
+  // @media screen and (min-width: 768px) {
+  //   &:not(:first-child) {
+  //     margin-left: 30px;
+  //   }
+  // }
 }
 
 .review__student-button {
@@ -183,7 +221,16 @@
   border: 1px solid transparent;
   border-radius: 50%;
   &:hover,
-  &:focus {
+  &:focus,
+  .slick-current & {
     border: 1px solid $orange;
   }
 }
+
+.review__student-picture--small {
+  width: 54px;
+}
+
+// .slider-for .slick-slide {
+//   display: flex;
+// }
