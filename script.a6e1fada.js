@@ -127,6 +127,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
     menuBtnRef.setAttribute('aria-expanded', !expanded);
     mobileMenuRef.classList.toggle('is-open');
     headerLogoRef.classList.toggle('white');
+    document.body.classList.toggle('modal-open');
     isMenuOpen = !isMenuOpen;
   }
 
@@ -210,7 +211,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59103" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49661" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

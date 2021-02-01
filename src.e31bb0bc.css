@@ -206,6 +206,7 @@ section {
   border: none;
   padding: 0;
   z-index: 3;
+  cursor: pointer;
 }
 @media screen and (min-width: 1344px) {
   .header-btn {
@@ -372,6 +373,10 @@ section {
   cursor: pointer;
   transform: rotate(90deg);
   opacity: 0.1;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 .hero {
