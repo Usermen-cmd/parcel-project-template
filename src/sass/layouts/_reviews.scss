@@ -3,7 +3,7 @@
   position: relative;
 
   @media screen and (min-width: 1344px) {
-    padding: 130px 112px;
+    padding: 130px 92px;
   }
 }
 
@@ -82,7 +82,7 @@
 
 .review__card.slick-slide {
   padding: 20px 20px 30px;
-  margin: 20px 20px;
+  margin: 20px 40px;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   @media screen and (min-width: 768px) {
     display: flex;
@@ -93,7 +93,7 @@
     // width: 100%;
   }
   @media screen and (min-width: 1344px) {
-    padding: 50px 82px;
+    padding: 50px 111px 50px 82px;
     margin-bottom: 40px;
   }
 }
@@ -115,6 +115,7 @@
   margin: 0 auto 20px;
   width: 90px;
   @media screen and (min-width: 768px) {
+    margin: 0 0 20px 0;
     width: 150px;
   }
 }
@@ -146,6 +147,7 @@
   letter-spacing: 0.08em;
   color: $light-font;
   margin: 0 20px 10px;
+
   @media screen and (min-width: 768px) {
     margin: 0 0 20px;
   }
@@ -178,6 +180,13 @@
   //   margin-right: -15px;
   // }
 }
+
+// .reviw__slider-for .slick-list.draggable {
+//   @media screen and (min-width: 768px) {
+//     width: 688px;
+//     margin: 0 auto;
+//   }
+// }
 
 .slick-track {
   display: flex;
