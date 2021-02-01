@@ -23,6 +23,7 @@
   font-size: 0;
   opacity: 1;
   transition: $transSet;
+  cursor: pointer;
 
   &:active {
     opacity: 0.5;
@@ -220,6 +221,7 @@
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 50%;
+  cursor: pointer;
   &:hover,
   &:focus,
   .slick-current & {
