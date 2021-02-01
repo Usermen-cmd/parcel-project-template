@@ -7,6 +7,7 @@
     menuBtnRef.setAttribute('aria-expanded', !expanded);
     mobileMenuRef.classList.toggle('is-open');
     headerLogoRef.classList.toggle('white');
+    document.body.classList.toggle('modal-open');
 
     isMenuOpen = !isMenuOpen;
   }
