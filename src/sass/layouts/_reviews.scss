@@ -1,6 +1,4 @@
 .container.review__section {
-  // padding-top: 50px;
-  // padding-bottom: 50px;
   padding: 50px 0;
   position: relative;
 
@@ -88,13 +86,14 @@
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding: 40px;
     margin-bottom: 30px;
-    width: 100%;
+    // width: 688px !important;
+    // width: 100%;
   }
   @media screen and (min-width: 1344px) {
-    padding: 50px 112px 50px 82px;
+    padding: 50px 82px;
     margin-bottom: 40px;
   }
 }
@@ -103,10 +102,12 @@
   @media screen and (min-width: 768px) {
     margin-left: 46px;
     text-align: start;
+    width: 412px;
   }
 
   @media screen and (min-width: 1344px) {
     margin-left: 40px;
+    width: 706px;
   }
 }
 
@@ -144,7 +145,6 @@
   @include font($font, normal, 500, 12px, 1.25);
   letter-spacing: 0.08em;
   color: $light-font;
-  // margin-bottom: 10px;
   margin: 0 20px 10px;
   @media screen and (min-width: 768px) {
     margin: 0 0 20px;
@@ -174,12 +174,15 @@
 .slick-list.draggable {
   position: static;
   padding: 0 !important;
-  // overflow: visible;
+  // .reviw__slider-nav & {
+  //   margin-right: -15px;
+  // }
 }
 
 .slick-track {
   display: flex;
-  // transform: none !important;
+  justify-content: space-between;
+  position: static;
 }
 
 .review__students-list {
@@ -191,33 +194,14 @@
     overflow: hidden;
   }
   @media screen and (min-width: 768px) {
-    width: 100%;
-    justify-content: center;
+    width: 588px;
+    padding-left: 15px;
   }
 }
 
 .review__student {
-  width: 64px !important;
+  // width: 90px !important;
   height: 56px;
-  // margin-left: 10px;
-  // margin-right: -10px;
-  @media screen and (min-width: 768px) {
-    width: 84px;
-    // margin-left: 30px;
-    // margin-right: -30px;
-  }
-  // margin: 0 5px;
-  // @media screen and (min-width: 768px) {
-  //   margin: 0 15px;
-  // }
-  // &:not(:first-child) {
-  //   margin-left: 10px;
-  // }
-  // @media screen and (min-width: 768px) {
-  //   &:not(:first-child) {
-  //     margin-left: 30px;
-  //   }
-  // }
 }
 
 .review__student-button {
@@ -235,7 +219,3 @@
 .review__student-picture--small {
   width: 54px;
 }
-
-// .slider-for .slick-slide {
-//   display: flex;
-// }
