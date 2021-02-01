@@ -7,6 +7,7 @@
     menuBtnRef.setAttribute('aria-expanded', !expanded);
     mobileMenuRef.classList.toggle('is-open');
     headerLogoRef.classList.toggle('white');
+    document.body.classList.toggle('modal-open');
 
     isMenuOpen = !isMenuOpen;
   }
@@ -53,4 +54,13 @@
       false,
     );
   }
+//hidden button in top-position
+window.onscroll = function(){
+  if(pageYOffset < 1100){
+      document.querySelector('.up-btn').style.display="none";
+  } else {
+    document.querySelector('.up-btn').style.display="flex";
+  }
+};
+//end script hidden button in top-position
 })();
