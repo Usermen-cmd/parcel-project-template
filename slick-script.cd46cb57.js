@@ -118,27 +118,29 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"scripts/slick-script.js":[function(require,module,exports) {
-$('.slider-for').slick({
+$('.reviw__slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.slider-nav',
-  initialSlide: 5
+  asNavFor: '.reviw__slider-nav',
+  initialSlide: 5,
+  mobileFirst: true
 });
-$('.slider-nav').slick({
+$('.reviw__slider-nav').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  asNavFor: '.slider-for',
+  asNavFor: '.reviw__slider-for',
   dots: false,
   centerMode: true,
   focusOnSelect: true,
   initialSlide: 5,
   mobileFirst: true,
   responsive: [{
-    breakpoint: 768,
+    breakpoint: 767,
     settings: {
-      slidesToShow: 7
+      slidesToShow: 7,
+      centerMode: true
     }
   }]
 });
@@ -170,7 +172,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49661" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51551" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
